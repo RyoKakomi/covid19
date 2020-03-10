@@ -76,10 +76,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [
-    '~assets/global.scss',
-    '@mdi/font/css/materialdesignicons.css'
-  ],
+  css: ['~assets/global.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -139,8 +136,7 @@ module.exports = {
    */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    theme: {},
-    defaultAssets: false
+    theme: {}
   },
   googleAnalytics: {
     id: 'UA-159982743-1'
